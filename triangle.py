@@ -7,7 +7,11 @@ def print_sleep(statement, pause_time):
     time.sleep(pause_time)
 
 #Intro Intstructions
-def intro()
+def intro():
+    print_sleep('Welcome to the Triangle Program', 2)
+    print_sleep('Enter any 3 Triangle measurements', 1)
+    print_sleep('and the program will complete the triangle for you', 2)
+    print_sleep('--------------------------------------------------', 2)
 
 #Get Input
 
