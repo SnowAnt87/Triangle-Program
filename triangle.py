@@ -14,8 +14,15 @@ def intro():
     print_sleep('--------------------------------------------------', 2)
 
 #Get Input
+def measurement_grab():
+    measurement = []
+    count = 0
+    while count < 3:
+        count += 1
+        measurement[count-1]=input('Enter measurement ' + count).split()  #split has to do with validity
+        #verify validity of measurement
 
-
+def triangle(measurements):   #Seperate from input for outside program use
 #Calculate Which Formula from Dataset
 
 
